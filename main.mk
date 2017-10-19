@@ -95,8 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/pa/prebuilt/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
     vendor/pa/prebuilt/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept
 
-# Build Jelly
-PRODUCT_PACKAGES += Jelly
+# Build Chromium for Snapdragon (PA Browser)
+PRODUCT_PACKAGES += PABrowser
 
 # Build ParanoidCamera
 ifneq ($(TARGET_USES_AOSP_CAMERA),true)
