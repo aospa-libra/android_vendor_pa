@@ -14,9 +14,11 @@
     limitations under the License.
 -->
 <exceptions>
+
    <!--
    The exceptions below have been set by Paranoid Android
    -->
+
 	<!-- Paranoid Hub -->
 	<exception
             package="com.paranoid.paranoidhub">
@@ -24,6 +26,7 @@
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="true"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="true"/>
 	</exception>
+
 	<!-- Paranoid Camera -->
 	<exception
             package="org.codeaurora.snapcam">
@@ -35,13 +38,15 @@
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
 	</exception>
-	<!-- Paranoid Gallery -->
+
+	<!-- LineageOS Gallery -->
 	<exception
             package="org.codeaurora.gallery">
 		<!-- Storage -->
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
 	</exception>
+
 	<!-- Paranoid Messaging -->
 	<exception
             package="com.android.mms">
@@ -61,6 +66,7 @@
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
 	</exception>
+
 	<!-- Paranoid Music -->
 	<exception
             package="com.android.music">
@@ -70,6 +76,7 @@
 		<permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
 		<permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
 	</exception>
+
 	<!-- Sound Recorder -->
 	<exception
             package="com.android.soundrecorder">
@@ -81,6 +88,7 @@
 		<!-- Phone state -->
 		<permission name="android.permission.READ_PHONE_STATE" fixed="false"/>
 	</exception>
+
         <!-- Clock -->
         <exception
             package="com.android.deskclock">
@@ -88,4 +96,5 @@
                 <permission name="android.permission.READ_EXTERNAL_STORAGE" fixed="false"/>
                 <permission name="android.permission.WRITE_EXTERNAL_STORAGE" fixed="false"/>
         </exception>
+
 </exceptions>
